@@ -24,8 +24,8 @@ mongoose.connect(process.env.MONGO_URL)
 const scraper = {
   url: 'https://www.calnewport.com/blog',
   async scraper(browser) {
-    const totalPages = 123
-    let currentPage = 19
+    const totalPages = 8 // page to end at. blog has 123 pages currently
+    let currentPage = 1 // page to start from, will increment each time
 
     // initialize array of posts to eventually return
     const postsJson = []
