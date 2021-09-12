@@ -1,0 +1,21 @@
+{
+  "name": "cal-scraper",
+  "version": "0.0.1",
+  "description": "a scraper for cal newports blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "diogo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.5",
+    "puppeteer": "^10.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
